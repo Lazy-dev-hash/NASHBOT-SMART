@@ -861,7 +861,7 @@ function handleHelp(api, threadID, messageID, prefix) {
    • "Show me a funny video"
    • "Download this Facebook video [URL]"`;
 
-    const helpMessage = design("🤖 NASHBOT - COMPREHENSIVE GUIDE", helpContent);
+    const helpMessage = design("🤖 NEKOBOT - COMPREHENSIVE GUIDE", helpContent);
 
     const imagePath = './nashbot.png';
 
@@ -973,7 +973,7 @@ function handleCommandList(api, threadID, messageID, prefix) {
 
 📊 𝗧𝗼𝘁𝗮𝗹: ${uniqueCommands.length} available features`;
 
-    const commandListMessage = design("🤖 NASHBOT - COMPLETE COMMAND LIST", smartContent);
+    const commandListMessage = design("🤖 NEKOBOT - COMPLETE COMMAND LIST", smartContent);
 
     const imagePath = './josh.jpeg';
 
